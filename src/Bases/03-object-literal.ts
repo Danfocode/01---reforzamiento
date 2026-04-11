@@ -3,10 +3,12 @@ interface Person {
     firstname: string;
     lastName: string;
     age: number;
-    address?: {
-        street: string;
-        city: string;
-    }
+    address?: Address;
+}
+
+interface Address {
+    street: string;
+    city: string;
 }
 
 
