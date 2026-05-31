@@ -1,3 +1,7 @@
-const myArray = [10, 20, 30, 40, 50, true];
+const myArray = [10, 20, 30, 40, 50];
 myArray.push( 100);
-console.log( myArray );
+
+for (const myNumber of myArray){
+    console.log( myNumber );    
+}
+ 
