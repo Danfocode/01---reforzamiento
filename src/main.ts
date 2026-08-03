@@ -1,5 +1,5 @@
 import './style.css'
-import './Bases/07-array-destructuring';
+import './Bases/07-array-destructuring.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

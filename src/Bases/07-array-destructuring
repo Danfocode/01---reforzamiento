@@ -1,4 +1,0 @@
-const charactersName = ["Goku", "Vegeta", "Gohan"];
-
-const [p1] = charactersName;
-console.log(p1);
