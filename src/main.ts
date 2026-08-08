@@ -1,6 +1,5 @@
 import './style.css'
-import './Bases/08-imp-exp.ts'
-import { getHeroByOwner } from './Bases/08-imp-exp.ts'
+import './Bases/10-fetch-api.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -8,4 +7,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
   </div>
 `
-console.log (getHeroByOwner('DC'))
