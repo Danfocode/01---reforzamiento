@@ -1,5 +1,6 @@
 import './style.css'
-import './Bases/07-array-destructuring.ts'
+import './Bases/08-imp-exp.ts'
+import { getHeroByOwner } from './Bases/08-imp-exp.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -7,4 +8,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
   </div>
 `
-
+console.log (getHeroByOwner('DC'))
